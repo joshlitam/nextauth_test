@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.detail {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.avatar {
+    border: none;
+    border-radius: 50%;
+}
+
+.button {
+    background-color: var(--text);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}

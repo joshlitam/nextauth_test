@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    padding: 10px;
+    color: var(--text);
+}
+
+.login, .logout {
+    padding: 10px;
+    background-color: white;
+    color: var(--bg);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

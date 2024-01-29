@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.left, .right {
+    flex: 1;
+    background-color: red;
+}
