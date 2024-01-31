@@ -3,7 +3,6 @@ import styles from "./home.module.css"
 import { connectToDb } from '@/lib/utils'
 
 const page = () => {
-  connectToDb();
   return (
     <div className={styles.container}>
       <div className={styles.left}>left</div>

@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container button {
+    padding: 20px;
+    cursor: pointer;
+    background-color: var(--btn);
+    border: none;
+    border-radius: 5px;
+    color: var(--textColor);
+    font-weight: bold;;
+}
+
+.wrapper {
+    width: 500px;
+    background-color: var(--bgSoft);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+}
+
+.register {
+    text-decoration: underline;
+}
